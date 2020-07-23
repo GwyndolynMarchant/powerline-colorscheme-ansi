@@ -1,0 +1,20 @@
+{
+	"colors": {
+		"ansi:black": 0,
+		"ansi:brightblack": 8,
+		"ansi:red": 1,
+		"ansi:brightred": 9,
+		"ansi:green": 2,
+		"ansi:brightgreen": 10,
+		"ansi:yellow": 3,
+		"ansi:brightyellow": 11,
+		"ansi:blue": 4,
+		"ansi:brightblue": 12,
+		"ansi:magenta": 5,
+		"ansi:brightmagenta": 13,
+		"ansi:cyan": 6,
+		"ansi:brightcyan": 14,
+		"ansi:white": 7,
+		"ansi:brightwhite": 15
+	}
+}
