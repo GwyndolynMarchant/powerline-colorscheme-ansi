@@ -1,10 +1,8 @@
 # Powerline Colorscheme - ANSI
 
-Everyone these days uses twenty-dozen colours. For those of us attempting to use a consistent, high-contrast terminal color scheme, this can be frustrating. Most color schemes define the first 16 colors [0-15] and leave the rest.
+Everyone these days uses twenty-dozen colors. For those of us attempting to use a consistent, high-contrast terminal color scheme, this can be frustrating. We don't want a true-color terminal application that suddenly clashes with environment shifts, or disrespects our choices. Packages like Powerline often ship with these complicated 256-color schemes which make default assumptions about terminal colors that don't work with our 16-color schemes.
 
-Worse, packages like Powerline often ship with complicated 256-color schemes which make default assumptions about terminal colors and can clash horribly with our minimalist 16-color schemes.
-
-Because of this, it's about time for a simple colour scheme: an ANSI scheme.
+Because of this, it's about time for a simple color scheme: an ANSI scheme.
 
 ## Requirements
 - [powerline-status](https://github.com/powerline/powerline)
@@ -34,6 +32,10 @@ ansi:brightwhite
 ```
 
 There are also two simple "gradients" included: `ansi:good_bad` (green, yellow, red) and `ansi:ok_bad` (white, yellow, red).
+
+Unlike other schemes, which use hex codes or pick "nice" values out of the 256-color X11 table, this scheme simply directly maps these color variables to your personally-defined 16 environment colors. That means that regardless of whether you use `.Xresources` or **xfce4-terminal** or etc., it will pull your basic color scheme and use those colors for your powerline.
+
+Finally.
 
 ## The Scheme
 
