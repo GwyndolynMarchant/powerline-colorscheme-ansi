@@ -41,7 +41,7 @@ Included is a default colorscheme that includes all default powerline elements a
 
 ## Installation
 
-You can drop this folder directly into (merge with) the contents of `~/.config/powerline`. You will then need to set `colorscheme` to `ANSI` under `config.json` for any extensions you wish to activate it on. For example, for shell use:
+Merge this folder with `~/.config/powerline`. You will need to set `colorscheme` to `ANSI` under `config.json` for any extensions you wish to activate it on. For example, for shell use:
 
 ```
 {
